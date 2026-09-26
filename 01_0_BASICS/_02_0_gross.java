@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class _02_0_gross {
+class _02_0_gross {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         double ba, da, sa, gross = 0;
