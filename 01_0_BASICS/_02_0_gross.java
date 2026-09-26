@@ -1,10 +1,10 @@
-import java.util.*;
+import java.util.Scanner;
 public class _02_0_gross {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         double ba, da, sa, gross = 0;
         System.out.print("Enter Basic Salary: ");
-        ba = sc.nextInt();
+        ba = sc.nextDouble();
         if(ba <= 10000){
             da = ba * 15 / 100;
             sa = ba * 5 / 100;
